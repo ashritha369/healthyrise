@@ -1,17 +1,5 @@
 import "./App.css";
-import "./components/BedTimeWarmUp";
-import "./components/Cardio";
-import "./components/FaceYoga";
-import "./components/Favorite";
-import "./components/GrateFulFor";
-import "./components/Gym";
-import "./components/HealthyMeals";
-import "./components/Meditation";
 
-import "./components/SelfCare";
-import "./components/WarmUp";
-import "./components/WhenYouFeelLow";
-import "./components/Yoga";
 // Importing Routes from react-router-dom
 import { Route, Routes } from "react-router-dom";
 import Yoga from "./components/Yoga";
@@ -25,6 +13,7 @@ import SelfCare from "./components/SelfCare";
 import WarmUp from "./components/WarmUp";
 import WhenYouFeelLow from "./components/WhenYouFeelLow";
 import Cardio from "./components/Cardio";
+import Meditation from "./components/Meditation";
 import { Link } from "react-router-dom";
 import logo from "./Imgs/Healthy.png";
 // use ref hook to scroll to a particular section
