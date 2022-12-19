@@ -1,5 +1,3 @@
-import Meditation from "./Meditation";
-
 function SingleItemTask(props) {
   return (
     <>
