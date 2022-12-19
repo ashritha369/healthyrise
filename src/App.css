@@ -1,0 +1,193 @@
+body {
+  background-color: black;
+  color: white;
+}
+/* CSS */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid #f0bdff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.menu-task-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 0, 128, 0.269);
+  height: 50px;
+  margin: 5px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.menu-task-cards {
+  height: 200px;
+}
+/* temporary */
+#task-item {
+  background-color: rgba(0, 0, 255, 0.146);
+}
+/* SINGLE-ITEM-TASK-CSS */
+.task-heading {
+  text-align: center;
+}
+.sub-task-heading {
+  text-align: center;
+}
+.description-and-media {
+  /* background-color: #61dafb; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.description {
+  background-color: rgba(255, 0, 0, 0.329);
+}
+.media {
+  background-color: rgba(0, 128, 0, 0.324);
+}
+
+@media (max-width: 880px) {
+  .description-and-media {
+    /* background-color: #61dafb; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+@media (max-width: 880px) {
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 300px) {
+  /* making logo responsive */
+  #logo {
+    width: 100%;
+    height: auto;
+  }
+}
+/* styling the menu divs */
+.menu-task-cards {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+#meditation-menu-card {
+  background-image: url("./Imgs//meditation.png");
+}
+#faceyoga-menu-card {
+  background-image: url("./Imgs/faceyoga.jpg");
+}
+#warmup-menu-card {
+  background-image: url("./Imgs/warmup.jpg");
+}
+#gym-menu-card {
+  background-image: url("./Imgs//gym.jpg");
+}
+#cardio-menu-card {
+  background-image: url("./Imgs//cardio.png");
+}
+#yoga-menu-card {
+  background-image: url("./Imgs//yoga.png");
+}
+#healthymeals-menu-card {
+  background-image: url("./Imgs//healthymeals.png");
+}
+#selfcare-menu-card {
+  background-image: url("./Imgs//selfcare.jpg");
+}
+#favorite-menu-card {
+  background-image: url("./Imgs//favorites.jpg");
+}
+#bedtimewarmup-menu-card {
+  background-image: url("./Imgs//bedtimewarmup.jpg");
+}
+#gratefulfor-menu-card {
+  background-image: url("./Imgs//gratefulfor.jpg");
+}
+#whenyoufeellow-menu-card {
+  background-image: url("./Imgs//whenyoufeellow.png");
+}
+button {
+  border: 2px solid white;
+  /* color: rgb(223, 93, 255); */
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+}
+button:hover {
+  background: rgb(216, 60, 255);
+}
+/* styling each menu-card items */
+.task-heading {
+  color: rgb(192, 238, 92);
+}
+.sub-task-heading {
+  color: rgb(255, 212, 255);
+}
+
+.item {
+  margin: 15px;
+}
+.description-and-media {
+  border-bottom: 2px dashed rgb(192, 238, 92);
+  margin-top: 20px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.488);
+  border: 2px solid rgb(255, 212, 255);
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+iframe.responsive-iframe {
+  border-radius: 10px;
+}
+.media.item {
+  border-radius: 10px;
+  border: 2px solid rgb(255, 212, 255);
+}
+.description-title {
+  color: rgb(192, 238, 92);
+}
+.scroll-to-top {
+  background-color: white;
+  right: 26px !important;
+  bottom: 13px !important;
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 9px 25px 0 rgb(132 128 177 / 28%);
+  border: 2px solid black !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
