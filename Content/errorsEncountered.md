@@ -31,3 +31,6 @@
 - Unable to add favicon/image in head along with title [UNRESOLVED]
 
 - Unable to append 'innerDiv' inside 'selectedContainer' [UNRESOLVED]
+
+- React-router URLs don't work when refreshing or writing manually [UNRESOLVED]
+  (https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually)[https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually]
