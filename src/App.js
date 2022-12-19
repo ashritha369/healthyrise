@@ -7,7 +7,7 @@ import "./components/GrateFulFor";
 import "./components/Gym";
 import "./components/HealthyMeals";
 import "./components/Meditation";
-import Meditation from "./components/Meditation";
+
 import "./components/SelfCare";
 import "./components/WarmUp";
 import "./components/WhenYouFeelLow";
