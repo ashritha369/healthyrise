@@ -28,14 +28,14 @@ function App() {
     });
   };
   // append  div inside div- NEED TO WORK ON THIS
-  window.addEventListener("onload", function () {
-    const selectedContainer =
-      document.getElementsByClassName("selectedContainer");
+  // window.addEventListener("onload", function () {
+  //   const selectedContainer =
+  //     document.getElementsByClassName("selectedContainer");
 
-    const innerDiv = document.getElementsByClassName("inner-div");
-    selectedContainer.innerHTML = innerDiv;
-    //
-  });
+  //   const innerDiv = document.getElementsByClassName("inner-div");
+  //   selectedContainer.innerHTML = innerDiv;
+  //   //
+  // });
 
   return (
     <>
@@ -120,7 +120,14 @@ function App() {
       </div>
       {/* ROUTES SETUP-WITH REACT-ROUTER-DOM */}
       <div className="selectedContainer" ref={selectedSection}>
-        <p>Outer div</p>
+        {window.addEventListener("onload", function () {
+          const selectedContainer =
+            document.getElementsByClassName("selectedContainer");
+
+          const innerDiv = document.getElementsByClassName("inner-div");
+          selectedContainer.innerHTML = innerDiv;
+          //
+        })}
       </div>
       <Routes>
         <Route path="/Mediation" element={<Meditation />} />
